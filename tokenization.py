@@ -1,8 +1,4 @@
-import pandas as pd
-import numpy as np
 import nltk
-import os
-import nltk.corpus
 
 # sample text for performing tokenization
 text = "In Brazil they drive on the right-hand side of the road. Brazil has a large coastline on the eastern side of South America"
