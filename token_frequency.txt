@@ -1,0 +1,1 @@
+{'In': 1, 'Brazil': 2, 'they': 1, 'drive': 1, 'on': 2, 'the': 3, 'right-hand': 1, 'side': 2, 'of': 2, 'road': 1, '.': 1, 'has': 1, 'a': 1, 'large': 1, 'coastline': 1, 'eastern': 1, 'South': 1, 'America': 1}
