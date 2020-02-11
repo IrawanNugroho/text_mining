@@ -7,7 +7,7 @@ pst.stem("waiting")
 # print("waiting: ", pst.stem("waiting"))
 
 # Checking for the list of words
-stm = ["giving", "given", "gave"]
+stm = ["caring", "cars", "cared"]
 for word in stm :
    print(word+ ":" +pst.stem(word))
 
@@ -15,6 +15,14 @@ for word in stm :
 print("\n\nlancaster stemmer")
 from nltk.stem import LancasterStemmer
 lst = LancasterStemmer()
-stm = ["giving", "given", "gave"]
+stm = ["caring", "cars", "cared"]
 for word in stm :
  print(word+ ":" +lst.stem(word))
+
+# Importing Lemmatizer library from nltk
+from nltk.stem import WordNetLemmatizer
+lemmatizer = WordNetLemmatizer() 
+
+print("\n\nlemmantization")
+print("caring :", lemmatizer.lemmatize("caring")) 
+print("cars :", lemmatizer.lemmatize("cars"))
