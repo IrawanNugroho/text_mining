@@ -1,0 +1,8 @@
+from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
+
+analyser = SentimentIntensityAnalyzer()
+
+def sentiment_analyzer_scores(sentence):
+    score = analyser.polarity_scores(sentence)
+    return score
+print (sentiment_analyzer_scores("This city is very beautiful"))
